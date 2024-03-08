@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const CustomError = require('../utils/customeError');
 const Schema = mongoose.Schema;
 require('dotenv').config();
 
